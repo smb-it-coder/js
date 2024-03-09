@@ -1,6 +1,10 @@
 # js 
 # Custom own Map function into javascript
 
+/**
+* Write a custom map function into javascript with example
+*/
+
 Array.prototype.myMap = function(callback) {
   let newArray = [];
   let x = this.length;
